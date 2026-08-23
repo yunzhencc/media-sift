@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { ThemeToggle } from '@/components/theme-toggle'
 import { Separator } from '@/components/ui/separator'
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             General
           </a>
         </nav>
+        <ThemeToggle />
         {(hash === '#general' || !hash) && (
           <section aria-labelledby="general-title">
             <h2 id="general-title" className="text-lg font-medium">General</h2>

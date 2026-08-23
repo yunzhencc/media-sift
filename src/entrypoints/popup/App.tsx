@@ -1,3 +1,4 @@
+import { ThemeToggle } from '@/components/theme-toggle'
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
 
@@ -14,6 +15,7 @@ function App() {
       <Separator />
       <Button>Button</Button>
       <Button variant="outline" onClick={openOptions}>Settings</Button>
+      <ThemeToggle />
     </div>
   )
 }
