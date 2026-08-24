@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Media Sift</title>
+  <defs>
+    <linearGradient id="background" x1="24" y1="18" x2="104" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4354E8"/>
+      <stop offset="1" stop-color="#202A9D"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="url(#background)"/>
+  <path d="M43 29H31V41M85 29H97V41M31 87V99H43M97 87V99H85" stroke="white" stroke-opacity=".72" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M64 44V71M54 60L64 70L74 60M52 82H76" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

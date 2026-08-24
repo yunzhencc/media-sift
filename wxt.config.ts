@@ -6,8 +6,14 @@ export default defineConfig({
   modules: [
     '@wxt-dev/module-react',
     '@wxt-dev/webextension-polyfill',
+    '@wxt-dev/auto-icons',
   ],
   srcDir: './src',
+  autoIcons: {
+    baseIconPath: '../public/logo.svg',
+    developmentIndicator: false,
+    sizes: [16, 32, 48, 96, 128],
+  },
   vite: () => ({
     plugins: [tailwindcss()],
   }),
